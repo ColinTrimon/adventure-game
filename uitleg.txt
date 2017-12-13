@@ -1,0 +1,9 @@
+//Een variabel slaat een waarde op die je kan veranderen
+var = keyword (heeft te maken met de variabel)
+var nam = "Colin"; //string is een reeks karakter
+var age = 19; //number
+var glasses = false; //boolean
+
+var ingredient_1 = "appel";
+var ingredient_2 = "taart";
+console.log(ingredient_1 + ingredient_2); //concatination

@@ -1,0 +1,142 @@
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+  background-image: url(wp.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Saira', sans-serif;
+  font-size: 20px;
+}
+
+#goal{
+  color: red;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1{
+  text-align: center;
+  color: gold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+img{
+  width: 450px;
+  height: 453px;
+  position: relative;
+  left: 550px;
+  border-color: black;
+  border-style: solid;
+}
+
+footer{
+  background-color: rgba(96, 96, 96, 0.72);
+  position: absolute;
+  right: 385px;
+  top: 572px;
+  padding: 1rem;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  width: 50%;
+}
+
+#magikarp{
+  display: none;
+  border: none;
+}
+
+#ambrosia{
+  display: none;
+  border: none;
+}
+
+#mushroom{
+  display: none;
+  border: none;
+}
+
+#cheeto{
+  display: none;
+  border: none;
+}
+
+#video{
+  display: none;
+  margin: 0px 33%;
+}
+
+button{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  margin: 0px 20px 20px 20px;
+}
+
+button:hover{
+  background-color: orange;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#button2{
+  display: none;
+}
+
+#button3{
+  display: none;
+}
+
+#button4{
+  display: none;
+}
+
+#cursive{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#horror{
+  font-family: '/cf_nightmare/CFNightmarePERSONAL-Regular.ttf';
+}
+
+#victory{
+  color: gold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+i{
+  border: solid black;
+  border-width: 0px 35px 35px 0px;
+  display: none;
+  padding: 53px;
+}
+
+#right {
+    transform: rotate(-45deg);
+    margin: 0px 250px 0px 0px;
+}
+
+#left {
+    transform: rotate(135deg);
+}
+
+#up {
+    transform: rotate(-135deg);
+}
+
+#down {
+    transform: rotate(45deg);
+}
